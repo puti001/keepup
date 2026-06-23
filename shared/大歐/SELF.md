@@ -42,6 +42,12 @@
 - 修改設定後需要重啟 opencode 才生效
 - 開機後 ~10 秒所有服務自動復活（靠 @reboot crontab）
 
+## keepup 版本控制 (2026-06-23)
+- 三兄弟共享資料庫推上 GitHub: `github.com/puti001/keepup`
+- 路徑：`/home/puti/keepup/`（git repo），`shared/` 同步 GDrive
+- 開工：`sync-keepup.sh pull` → GDrive → keepup
+- 收工：`sync-keepup.sh push` → git commit + push → GDrive 回寫
+
 ## 歷史教訓 (2026-06-23)
 
 ### 小歐的正式版本
